@@ -36,23 +36,40 @@
 
 .banner {
   position: relative;
-  padding: 50px 0;
+  padding: 150px 0;
   text-align: center;
 }
 
-.banner .link {
+.banner h1 {
+  font-size: 72px;
+}
+
+.banner h1 span {
+  font-size: 30px;
+}
+
+.banner-content p {
+  padding: 15px 0;
+}
+
+.banner-content .shop-now {
+  padding: 40px 0;
+}
+
+.banner-content a.link {
+  line-height: 20px;
   text-decoration: underline;
 }
 
 .banner .calligraphy {
-  font-size: 30px;
+  font-size: 48px;
   font-family: 'Great Vibes', cursive;
 }
 
 .banner .banner-link {
   position: absolute;
   right: 0;
-  top: 30%;
+  top: 40%;
   width: 5%;
 }
 
