@@ -1,3 +1,1 @@
-## ShopX
-
 Responsive Web Design
