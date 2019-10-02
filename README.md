@@ -1,1 +1,3 @@
-Responsive Web Design
+# ShopX
+
+Complete Online Shopping Portal
