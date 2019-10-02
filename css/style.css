@@ -1,0 +1,127 @@
+.header-top-wrapper .user-info ul {
+  text-align: right;
+  float: right;
+}
+
+.header-top-wrapper .user-info ul li {
+  float: left;
+  text-align: right;
+  padding: 0 13px;
+}
+
+.header-nav-wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+.header-nav-wrapper ul {
+  display: inline-block;
+}
+
+.header-nav-wrapper ul li {
+  float: left;
+  padding: 0 13px;
+  line-height: 70px;
+}
+
+.header-nav-wrapper ul li a {
+  text-transform: uppercase;
+}
+
+.header-nav-wrapper ul li a.active,
+.header-nav-wrapper ul li a:hover {
+  color: #ade1c5;
+  text-decoration: underline;
+}
+
+.body-nav .nav-links ul li {
+  float: left;
+  padding: 0 13px;
+}
+
+.body-nav .nav-links ul li:first-child {
+  padding-left: 0;
+}
+
+.body-nav .nav-links ul li a.active,
+.body-nav .nav-links ul li a:hover {
+  color: #ade1c5;
+}
+
+.service ul li {
+  float: left;
+  width: 25%;
+  padding: 21px 0;
+  text-align: center;
+  background: #1d1e24;
+}
+
+.service ul li:nth-child(even) {
+  background: #202127;
+}
+
+.service ul li img {
+  height: 74px;
+  padding: 21px 0;
+}
+
+.service ul li p.title {
+  color: #fff;
+  font-size: 14px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.service ul li p {
+  color: #767676;
+}
+
+.footer,
+.footer a {
+  font-size: 12px;
+  color: #7b7c85;
+}
+
+.footer .title {
+  font-size: 14px;
+  color: #000;
+}
+
+.footer-content .footer-brand p {
+  padding-right: 60px;
+}
+
+.footer-content .footer-brand .readmore {
+  padding: 20px 0;
+}
+
+.footer-content .footer-links .title {
+  padding: 0 50px;
+}
+
+.footer-content .footer-links ul {
+  padding: 10px 10px;
+}
+
+.footer-content .footer-links ul li {
+  padding: 10px 0;
+  float: left;
+  width: 50%;
+}
+
+.footer-content .instagram .title {
+  background-image: url('../images/instagram.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-content .instagram .tile {
+  height: 70px;
+  width: 70px;
+  background: #202127;
+  float: left;
+  margin: 2px;
+}
