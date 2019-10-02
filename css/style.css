@@ -34,6 +34,39 @@
   text-decoration: underline;
 }
 
+.banner {
+  position: relative;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.banner .link {
+  text-decoration: underline;
+}
+
+.banner .calligraphy {
+  font-size: 30px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.banner .banner-link {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  width: 5%;
+}
+
+.banner .banner-link ul li {
+  padding: 5px;
+  display: block;
+}
+
+.banner .banner-link ul li.active {
+  color: #fff;
+  border-top: 1px solid #7b7c85;
+  border-bottom: 1px solid #7b7c85;
+}
+
 .body-nav .nav-links ul li {
   float: left;
   padding: 0 13px;
@@ -74,6 +107,24 @@
 
 .service ul li p {
   color: #767676;
+}
+
+.feature {
+  color: #fff;
+}
+
+.feature .large-title {
+  font-size: 72px;
+  color: #86c7ae;
+}
+
+.feature h2 {
+  color: #000;
+}
+
+.feature .link {
+  text-decoration: underline;
+  color: #fff;
 }
 
 .footer,
@@ -121,7 +172,18 @@
 .footer-content .instagram .tile {
   height: 70px;
   width: 70px;
-  background: #202127;
   float: left;
   margin: 2px;
+}
+
+.payment-gateways {
+  text-align: right;
+}
+
+.payment-gateways ul li {
+  float: left;
+}
+
+.payment-options .secure {
+  padding-top: 10px;
 }
