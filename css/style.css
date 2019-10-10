@@ -126,6 +126,35 @@
   color: #767676;
 }
 
+.price-label {
+  position: relative;
+}
+
+.circular-label {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: #e7a8c6;
+  text-align: center;
+  position: absolute;
+  right: 150px;
+  top: 200px;
+}
+
+.item-price-wrapper {
+  padding-top: 70px;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  letter-spacing: 15px;
+  word-spacing: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 65px 0;
+}
+
 .feature {
   color: #fff;
 }

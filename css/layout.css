@@ -76,6 +76,16 @@
   float: left;
 }
 
+.body-feature .price .price-label {
+  width: 95%;
+  float: left;
+}
+
+.body-feature .price .vertical-text {
+  width: 5%;
+  float: right;
+}
+
 .body-feature .feature-wrapper {
   width: 50%;
   float: left;
