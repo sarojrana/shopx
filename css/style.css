@@ -145,6 +145,16 @@
   padding-top: 70px;
 }
 
+.item-old-price {
+  padding-left: 3rem;
+  text-decoration: line-through;
+}
+
+.item-new-price {
+  color: #fff;
+  font-size: 2rem;
+}
+
 .vertical-text {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
